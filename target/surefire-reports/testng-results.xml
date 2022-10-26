@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon" duration-ms="8885" started-at="2022-10-25T22:01:25Z" finished-at="2022-10-25T22:01:34Z">
+    <groups>
+    </groups>
+    <test name="TC001_signIn" duration-ms="8885" started-at="2022-10-25T22:01:25Z" finished-at="2022-10-25T22:01:34Z">
+      <class name="com_Amazon_testCases.TC001_signIn">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com_Amazon_testCases.TC001_signIn@3e4e87]" name="setUp" is-config="true" duration-ms="5015" started-at="2022-10-25T22:01:25Z" finished-at="2022-10-25T22:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com_Amazon_testCases.TC001_signIn@3e4e87]" name="signIn" duration-ms="2983" started-at="2022-10-25T22:01:30Z" finished-at="2022-10-25T22:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com_Amazon_testCases.TC001_signIn@3e4e87]" name="tearDown" is-config="true" duration-ms="749" started-at="2022-10-25T22:01:33Z" finished-at="2022-10-25T22:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com_Amazon_testCases.TC001_signIn -->
+    </test> <!-- TC001_signIn -->
+  </suite> <!-- Amazon -->
+</testng-results>

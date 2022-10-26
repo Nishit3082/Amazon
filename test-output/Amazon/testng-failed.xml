@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon]">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="TC001_signIn(failed)">
+    <classes>
+      <class name="com_Amazon_testCases.TC001_signIn">
+        <methods>
+          <include name="signIn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com_Amazon_testCases.TC001_signIn -->
+    </classes>
+  </test> <!-- TC001_signIn(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
